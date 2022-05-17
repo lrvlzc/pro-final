@@ -71,18 +71,18 @@ employees.get('/:id([0-9]{1,3})', async (req,res,next) => {
     if(id >= 0 && id <= employees.length){
         const employ = await db.query("SELECT * FROM employees WHERE Id="+id+";");
         return res.status(200).json({ code: 200, message: employ});
-    } else{
-        return res.status(404).send({ code: 404, message: "Empleado no encontrado"});
-    } 
+    }
+    return res.status(404).send({ code: 404, message: "Empleado no encontrado"});
+    
 });
 
 // (condicion) ? valor si T: valor si F;
 
 employees.get('/:name([A-Za-z]+)', async (req,res,next) => {
     const name = req.params.name;
-    const emp = emplo.filter((e)=>{
+    /*const emp = emplo.filter((e)=>{
         return (e.name.toUpperCase()==name.toUpperCase()) && e;
-    });
+    });*/
 
     const employ = await db.query("SELECT * FROM employees WHERE Name="+name+";");
     
