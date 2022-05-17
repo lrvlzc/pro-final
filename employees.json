@@ -1,0 +1,38 @@
+{
+    "employees":[{
+        "id": 1,
+        "name":"Leonardo",
+        "last_name":"Velazquez",
+        "phone":"4423734485",
+        "mail":"leoanrdo@gmail.com",
+        "address":"#317 calle29 Cimatario",
+        "alta":"si"
+        }, {
+            "id": 2,
+            "name":"Fernanda",
+            "last_name":"Sanchez",
+            "phone":"44758946",
+            "mail":"fer.sanzhez@hotmail.com",
+            "address":"#15 calle 5 de Mayo Centro",
+            "alta":"si"
+        }, {
+            "id": 3,
+            "name":"Schoenstatt",
+            "last_name":"Jimenez",
+            "phone":"55236589",
+            "mail":"Schoensatt09@outlook.com",
+            "address":"#121 calle 84 Juriquilla",
+            "alta":"no"
+        }, {
+            "id": 4,
+            "name":"Judith",
+            "last_name":"De la torre",
+            "phone":"44758915",
+            "mail":"torres911@gmail.com",
+            "address":"#56 calle Luis pasteur Centro",
+            "alta":"si"
+        }
+
+
+    ]
+}
